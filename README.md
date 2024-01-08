@@ -17,11 +17,11 @@
 Внешний вид стартовой страницы до использования промокода:
 
 
-![image]((https://github.com/TarakanVS/TPLab2-3/assets/screen1)
-![image]((https://github.com/TarakanVS/TPLab2-3/assets/screen2)
-![image]((https://github.com/TarakanVS/TPLab2-3/assets/screen3)
-![image]((https://github.com/TarakanVS/TPLab2-3/assets/screen4)
-![image]((https://github.com/TarakanVS/TPLab2-3/assets/screen5)
+![image](https://github.com/TarakanVS/TPLab2-3/blob/master/assets/screen1.png)
+![image](https://github.com/TarakanVS/TPLab2-3/blob/master/assets/screen2.png)
+![image](https://github.com/TarakanVS/TPLab2-3/blob/master/assets/screen3.png)
+![image](https://github.com/TarakanVS/TPLab2-3/blob/master/assets/screen4.png)
+![image](https://github.com/TarakanVS/TPLab2-3/blob/master/assets/screen5.png)
 
 Внешний вид страницы после использования неправильного промокода (всегда сбрасывается до общедоступного списка):
 
