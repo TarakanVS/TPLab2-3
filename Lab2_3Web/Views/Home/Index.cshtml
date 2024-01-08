@@ -1,0 +1,32 @@
+﻿@model List<ProductViewModel>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="table-responsive">
+    <form method="get">
+        <div class="form-inline">
+            <label class="control-label">Команда: </label>
+            <input class="form-control" type="text" placeholder="Промокод" aria-label="пример ввода по умолчанию" name="PromoCode">
+
+            <input type="submit" value="Применить" class="btn btn-default" />
+        </div>
+    </form>
+
+    <h3>Список</h3>
+    <table class="table align-middle">
+        <tr>
+            <td><p>Наименование</p></td>
+            <td><p>Цена</p></td>
+            <td></td>
+        </tr>
+        @foreach (var m in Model)
+        {
+            <tr>
+                <td><p>@m.Name</p></td>
+                <td><p>@m.Price</p></td>
+                <td><p><a href="/Home/Buy/@m.Id">Купить</a></p></td>
+            </tr>
+        }
+    </table>
+</div>
